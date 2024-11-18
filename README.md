@@ -5,6 +5,8 @@ Requires **PHP 8.2.x**.
 To get started, configure your database connection in the `.env` file, then open the console and run:
 
 ```
+composer install
+
 php artisan migrate
 php artisan db:seed
 ```
